@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "Gym landing",
     "ignore": [
       "firebase.json",
       "**/.*",
