@@ -21,7 +21,7 @@
     <link href="style.css" rel="stylesheet" />
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Start your project here-->
     <html lang="en" class="full-height">
 
@@ -65,6 +65,11 @@
       </ul>
     </div>
   </nav>
+</header>
+
+<!--Main Navigation-->
+
+<!--Main Layout-->
 
   <div class="banner view intro-2" id="home">
     <div class="full-bg-img">
@@ -93,10 +98,8 @@
     </div>
   </div>
 
-</header>
-<!--Main Navigation-->
 
-<!--Main Layout-->
+
 <div class="bgPrograms">
   <div class="container my-5">
 
@@ -381,7 +384,7 @@
           // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
           $('html, body').animate({
             scrollTop: $(hash).offset().top
-          }, 800, function(){
+          }, 600, function(){
 
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
